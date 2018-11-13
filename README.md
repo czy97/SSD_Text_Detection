@@ -9,7 +9,7 @@ This project is refered from the [SSD code](https://github.com/pengzhiliang/obje
 
 ## Train:
 - You should first download the SynthText data and put the dataset under the data dir  
-- bash train.sh(more detail you should explore in train.sh and train.py)  
+- bash trainModel.sh(more detail you should explore in trainModel.sh and train.py)  
 
 ## Test
 -python test.py  
