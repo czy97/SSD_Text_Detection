@@ -7,19 +7,12 @@ This project is refered from the [SSD code](https://github.com/pengzhiliang/obje
 - opencv-python  
 - Pillow
 
-## Function:
-- Define arbitrary hiddens layers as you want  
-- Choose activation function between sigmoid and relu  
-- BatchNorm  
-- Dropout  
-- Model storing(FullyConnectedNet.storeModel())  
-- Model loading(FullyConnectedNet.loadModel())  
-- Choose different update rules among sgd/sgd_momentum/rmsprop/adam  
-- Seperated model definition module(codes.classifiers.fc_net.FullyConnectedNet) and updating module(codes.solver.Solver)
+## Train:
+- You should first download the SynthText data and put the dataset under the data dir  
+- bash train.sh(more detail you should explore in train.sh and train.py)  
 
-## Demo
-mnist_classification.ipynb
+## Test
+-python test.py  
 
-## Postscript
-The bestParams.pkl in the params directory I didn't upload here.  
-If you need email me to chenzhengyang117@gmail.com
+## Plot Result box
+-python plotResBbox.py
