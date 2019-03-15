@@ -12,7 +12,7 @@ This project is refered from the [SSD code](https://github.com/pengzhiliang/obje
 - bash trainModel.sh(more detail you should explore in trainModel.sh and train.py)  
 
 ## Test
--python test.py  
+- python test.py  
 
 ## Plot Result box
--python plotResBbox.py
+- python plotResBbox.py
